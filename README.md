@@ -20,9 +20,9 @@ Will be added as the project advances.
 
 ## Contributors
 
-Purvanshi Mehta
+Purvanshi Mehta  
 Vishruty Mittal
-Taniya Saina
+Taniya Saini
 
 ## License
 
