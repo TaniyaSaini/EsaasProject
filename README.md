@@ -1,28 +1,49 @@
 ## Synopsis
 
-This project is a management software for hospitals. It helps the doctors, patients and management staff to schedule,manage patient history, proper management of medicines and OT equipments.
+DILTON is a platform where a student can enter a maths word problem, get an automatic answer and visual explanation generated of both the question and the answer.
+
 
 ## Motivation
 
-Maternity and multi-speciality hospitals till today lack proper softwares to manage everything from patient history to report generation.
+A student begins to solve Word Problems in the second grade, and these problems continue till the end of high school. Most students are unable to visualise such problems, and rely on rote learning instead.Finally developing a hatered towards the subject.
+
 
 ## Installation
 
---To be decided.--
+Download the "Revised Frontend" folder and extract it somewhere.
 
-## API Reference
+Install dependencies (assuming you have python3 installed)
 
-The API end points will be added as they are built.
+sudo pip3 install numpy nltk spacy sklearn pandas flask tensorflow keras h5py
 
-## Tests
+Download external files:
 
-Will be added as the project advances.
+Download dependencies for Stanford POSTagger, and DependencyParser:
+
+Go to the following link: Click Me!, and download & extract the "libs" folder to your "Revised Frontend" directory.
+
+Download models for Spacy:
+
+sudo python3 -m spacy download en
+
+Download NLTK Data (all corpora and packages):
+
+python3
+>>> import nltk
+>>> nltk.download()
+Navigate to your "Revised Frontend" folder with your terminal, and start the Flask server with
+
+python3 linking.py.
+
+Open http://127.0.0.1:5000 in your browser.
+
 
 ## Contributors
 
-Purvanshi Mehta  
-Vishruty Mittal
-Taniya Saini
+Purvanshi Mehta - 101412029  
+Vishruty Mittal - 101412045
+Taniya Saini - 101412041
+
 
 ## License
 
