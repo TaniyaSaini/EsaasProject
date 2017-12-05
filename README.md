@@ -1,6 +1,6 @@
 ## Synopsis
 
-DILTON is a platform where a student can enter a maths word problem, get an automatic answer and visual explanation generated of both the question and the answer.
+Equation Solver System is a platform where a student can enter a maths word problem, get an automatic answer and visual explanation generated of both the question and the answer.
 
 
 ## Motivation
